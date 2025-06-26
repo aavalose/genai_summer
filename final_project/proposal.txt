@@ -1,0 +1,42 @@
+Project Proposal
+The goal of this project is to build a generative AI system that provides fashion outfit recommendations in response to natural language prompts describing a user’s plans (e.g., “I’m going to a beach wedding” or “Dinner with friends at a rooftop bar”). The system will generate personalized outfit suggestions in image format, using generative image models conditioned on user input.
+
+The project addresses a common real-world challenge: helping users decide what to wear, especially in social or formal settings. Our approach involves combining a database of fashion items and outfits with image generation models. We will also consider user-specific wardrobe data, allowing users to upload or scan their clothes to receive recommendations tailored to what they already own.
+
+Data Selection
+We plan to use a combination of existing fashion datasets and custom user-uploaded data. Key sources may include:
+
+DeepFashion Dataset: Contains over 800,000 annotated fashion images with category labels, landmarks, and attributes.
+
+FashionGen: Pairs fashion images with detailed text descriptions of garments.
+
+Polyvore Outfits Dataset: Offers outfit compositions and compatible fashion items curated by users.
+
+These datasets are appropriate because they include structured images of clothing items, metadata (e.g., colors, textures, seasonality), and natural language descriptions. This alignment supports both training the recommendation logic and enabling high-quality image generation.
+
+Preprocessing will include:
+
+Cropping and resizing images
+
+Standardizing labels and attributes
+
+Embedding text descriptions using language models
+
+Building a clothing-item-level embedding space for retrieval or conditioning
+
+Data Description
+Our core dataset (e.g., DeepFashion) contains:
+
+~800,000 images of individual clothing items
+
+50 clothing categories (e.g., tops, dresses, pants, shoes)
+
+1000+ clothing attributes (e.g., color, pattern, sleeve type)
+
+Paired text descriptions for FashionGen (~300,000 samples)
+
+Outfit combinations (from Polyvore: ~20,000 outfits)
+
+Each image is typically 256x256 in size and labeled with a clothing category and attributes. Text descriptions are ~20–100 words and describe material, design, and usage context. We’ll explore linking similar items in the embedding space for retrieval, while conditioning image generation on key contextual features.
+
+In the user-facing version, users can upload their wardrobe via images. We’ll tag and embed these in the same fashion item space, enabling personalized recommendations that reflect items they already own.

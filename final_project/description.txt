@@ -1,0 +1,50 @@
+Course Project:
+Overview
+This course will involve a final project focused on generative AI. Your final project will account for 50% of your total grade and will be completed in three tasks: the project proposal, a Jupyter notebook documenting your work, and a recorded presentation.
+
+Final Project
+Task 1: Project Proposal, Data Selection, and Data Description (5%) (due check Canvas)
+In this task, you will submit a project proposal that includes the following components:
+
+Project Proposal: Outline the objectives and goals of your project. Describe the problem you intend to address using generative AI techniques and your overall approach.
+Data Selection: Detail the sources of your data and explain why these sources are suitable. Discuss any preprocessing steps required.
+Data Description: Provide a comprehensive description of the data, including format, size, attributes, and any inherent challenges or limitations.
+Task 2: Jupyter Notebook and medium post (35%) ( due check Canvas )
+You will create a comprehensive Jupyter notebook that documents your project, including the following components:
+
+Data Preprocessing (5%): Describe the methods and steps used to preprocess and prepare the data.
+Model Implementation (10%): Detail the architecture and implementation of your generative AI model. Include code snippets and explanations of your model choices and any modifications.
+Methods (5%): Explain the algorithms, techniques, or frameworks used in your project.
+Experiments and Results (10%): Present your experiments and results using performance metrics, visualizations, and analyses.
+Task 3: Recorded Presentation (10%) ( due check Canvas )
+You will deliver a recorded presentation explaining your project, including its objectives, methodology, results, and conclusions. This presentation should not exceed 10 minutes and should involve all team members.
+
+Generative AI Project Ideas
+Here are 20 project ideas for your generative AI project:
+
+Image Generation: Train a Generative Adversarial Network (GAN) to generate realistic images from random noise.
+Text-to-Image Synthesis: Develop a model that generates images based on textual descriptions.
+Image-to-Image Translation: Use a model like CycleGAN to translate images from one domain to another (e.g., transforming summer landscapes to winter landscapes).
+Style Transfer: Create a model that transfers the artistic style of one image onto another while preserving the original content.
+Music Generation: Train a model to compose original music pieces.
+Text Generation: Develop a model to generate coherent and contextually relevant text, such as poetry, stories, or news articles.
+Speech Synthesis: Build a model to generate human-like speech from text input.
+3D Object Generation: Use a generative model to create 3D objects or shapes.
+Face Generation: Train a model to generate realistic human faces.
+Super-Resolution: Develop a model to enhance the resolution and quality of low-resolution images.
+Video Generation: Create a model that generates short video clips based on given inputs.
+Handwriting Generation: Train a model to produce realistic handwritten text in various styles.
+Chatbot Creation: Develop a conversational AI that generates human-like responses.
+Fashion Design: Use generative models to create new clothing designs.
+Image Inpainting: Build a model that can fill in missing parts of an image seamlessly.
+Data Augmentation: Generate synthetic data to augment a dataset for training other machine learning models.
+Recipe Generation: Develop a model that creates new recipes based on ingredient lists.
+Game Level Generation: Use a generative model to design new levels for video games.
+Code Generation: Train a model to generate code snippets based on natural language descriptions.
+Art Creation: Use generative models to create new pieces of digital art.
+Important Information
+Ensure your project is well-documented and reproducible.
+Your Jupyter notebook should be well-organized and easy to follow.
+Your recorded presentation should effectively communicate your project's objectives, methods, and results.
+Good luck with your final project!
+
