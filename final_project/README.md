@@ -83,13 +83,19 @@ final_project/
 
 ## 🎭 Usage Examples
 
-The system can handle various types of prompts:
+The system can handle various types of prompts and generates both text recommendations and visual outfit images:
 
-- **Formal Events**: "I'm going to a beach wedding"
-- **Professional**: "Job interview at a tech company"
-- **Casual**: "Casual weekend brunch with friends"
-- **Business**: "Formal business meeting"
-- **Social**: "Date night at a fancy restaurant"
+- **Formal Events**: "I'm going to a beach wedding" → Elegant formal wear with matching accessories
+- **Professional**: "Job interview at a tech company" → Professional business attire with modern styling
+- **Casual**: "Casual weekend brunch with friends" → Comfortable yet stylish everyday wear
+- **Business**: "Formal business meeting" → Sophisticated business outfits with polished details
+- **Social**: "Date night at a fancy restaurant" → Trendy evening wear perfect for upscale dining
+
+### 🎨 Visual Output Types
+
+1. **Real AI Images**: When Stable Diffusion is available, generates photorealistic fashion photos
+2. **Enhanced Placeholders**: Professional-looking outfit cards when AI generation isn't available
+3. **Fallback Options**: Multiple backup methods ensure you always get quality visualizations
 
 ## 📊 Performance Metrics
 
